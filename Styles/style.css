@@ -1,0 +1,116 @@
+html {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Mulish;
+}
+
+p {
+    font-family: Mulish;
+}
+
+/* Navigation bar styles */
+header {
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.banner-container,
+.nav-bar,
+.nav-title>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar img {
+    margin-right: 20px;
+}
+
+.nav-bar h3 {
+    font-size: 2.15rem;
+}
+
+.nav-bar a {
+    color: #FF5400;
+    text-decoration: none;
+}
+
+.nav-title li {
+    list-style: none;
+    margin-right: 40px;
+    color: #424247;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.nav-title a {
+    list-style: none;
+    color: #FF5400;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Banner section style  */
+.bnr {
+    width: 75%;
+    height: 75vh;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Assets/Images/Banner.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.travel-container {
+    padding-top: 106px;
+    padding-bottom: 106px;
+}
+
+.travel-container h2 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.travel-container p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.select-option .drop-down {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.select-option .btn-primary {
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+    border: 0;
+    padding-left: 0;
+}
