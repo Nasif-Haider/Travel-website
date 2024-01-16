@@ -2,6 +2,11 @@ html {
     margin: 0;
 }
 
+input,
+button {
+    font-family: Mulish;
+}
+
 h1,
 h2,
 h3,
@@ -362,3 +367,97 @@ header {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* Newsletter */
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.newsletter {
+    /* width: 24.688vw; */
+    width: 25%;
+    height: 22vw;
+    border-radius: 16px;
+    padding-left: 2.5rem;
+    border: 1px solid #FF5400;
+}
+
+.newsletter h3 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter p {
+    width: 18.2vw;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+hr {
+    width: 393px;
+    height: 1px;
+    margin-bottom: 2rem;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+input {
+    display: block;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    margin-bottom: 2rem;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    padding-left: 1.2rem;
+}
+
+.newsletter button {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+    margin-bottom: 2.5rem;
+}
+
+/* .info-container img{
+    width: 100%;
+
+} */
+.discount {
+    background-image: url("../Assets/Images/sadapathor.png");
+    width: 35vw;
+    height: 44.5vh;
+    position: relative;
+}
+
+.discount button {
+    width: 16.5vw;
+    height: 12.5vh;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    left: 340px;
+    top: 245px;
+    border-radius: 16px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    
+}
+
